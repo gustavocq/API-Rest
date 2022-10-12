@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>fetch</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<script src="scripts.js"></script>
+<body>
+    <main>
+        <h1>Postagens</h1>
+        <nav>
+            <a href="index.html"><button type="button">Home</button></a>   <br>         
+        </nav>
+        <div>                      
+            <label>Titulo: </label>
+            <input id="titletxt" class="titletxt">
+            <label>Corpo: </label>
+            <input id="bodytxt" class="bodytxt">
+            <button type="button" onclick="postPostagem()">Salvar</button>            
+        </div>
+        <div id="resp">            
+            <p id="respjson"></p>
+            <p id="confirmacao"></p>                            
+        </div> <br>
+        <div>
+            <button type="button" onclick="modoEdicao()">Editar</button>
+            <button type="button" onclick="excluirElemento()">Excluir um elemento</button>  
+        </div>
+          
+        <div id="modoEdicao" class="modoEdicao">
+            <label>Titulo: </label>   
+            <input id="titletxtedit" class="titletxtedit">
+            <label>Corpo: </label>
+            <input id="bodytxtedit" class="bodytxtedit">
+            <button type="button" onclick="putPostagem()">Salvar</button>
+        </div>
+        <div id="excluirElemento" class="excluirElemento">
+            <label>Id do item que deseja excluir: </label>   
+            <input id="idtxt" class="idtxt">
+            <button type="button" onclick="removerPostagem()">Excluir</button>
+        </div>
+    </main>
+</body>
+
+</html>

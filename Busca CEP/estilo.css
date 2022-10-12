@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    }
+main {
+    width: 51rem;
+    margin: 1rem auto;
+    }
+input,
+    button {
+    text-align: right;
+    padding: 0.5rem;
+    }
+input{
+    width: 10rem;
+    margin-bottom: 0.5rem;
+    }
+button {
+    margin-bottom: 0.5rem;
+    }
+#resp {
+    padding: 0.5rem;
+    background-color: rgba(255, 251, 0, 0.884);
+    color: rgb(0, 0, 0);
+    width: 50rem;
+}
+.campo {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}

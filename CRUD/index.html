@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>fetch</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<script src="scripts.js"></script>
+<body>
+    <main>
+        <h1>Postagens</h1>
+        <a href="novaPostagem.html"><button type="button">Nova Postagem</button></a>   <br>
+        <input id="numero" type="number" min="1" max="100" value="1">        
+        <button onclick="getPostagem(numero.value)">Buscar</button>
+
+        <div id="resp">
+            <p class="campo">Resposta:</p>
+            <p id="respjson"></p>
+        </div>
+    </main>s
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">    
+    <title>Buscar CEP</title>
+</head>
+<script src="scripts.js"></script>
+<body>
+    <main>
+        <h1>Buscar CEP</h1>
+        <input id="cep" type="text">
+        <button onclick="validarCep(cep.value)">Buscar</button>
+        <div id="resp">
+            <p class="campo">Resposta:</p>
+            <p id="respjson"></p>
+        </div>
+    </main>
+</body>
+</html>
